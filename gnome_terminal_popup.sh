@@ -18,7 +18,7 @@ gnome_server_pid=$(find_gnome_terminal_server_pid)
 if [ -z "${gnome_server_pid//}" ]
     then
         gnome-terminal --window
-        gnome_server_pid=$(find_gnome_terminal_server_pid)
+        exit 0
     fi
 
 # get (all) open gnome-terminal windows ids
