@@ -7,6 +7,9 @@ This script can be bound to keyboard shortcut. In such way the Gnome terminal wi
 
 Obviously it can be also exeucted manually.
 
+![](assets/animation1.gif)
+![](assets/animation2.gif)
+
 # Dependencies
 - **xdotool**, can be installed with `sudo apt install xdotool`
 - **wmctrl**, can be installed with `sudo apt install wmctrl`
